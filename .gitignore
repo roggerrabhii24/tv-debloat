@@ -1,0 +1,19 @@
+# macOS metadata
+.DS_Store
+
+# Backups & private data (contains MAC, IP, and TV Serial Number)
+backup/
+*.txt
+*.json
+*.log
+shots/
+
+# Sensitive ADB Keys
+adbkey*
+*.key
+tools/adbkeys/
+tools/venv/
+
+# Build caches & temp files
+.gradle/
+*.tmp
