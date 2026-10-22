@@ -1,6 +1,25 @@
 # Realme Smart TV Clean Setup & Apple TV 4K Style Launcher
 
-A streamlined debloat toolkit and native Apple TV 4K-style home screen configuration for **Realme Smart TV** (Android 11, API 30 / Changhong board).
+[![Platform](https://img.shields.io/badge/Platform-Android%20TV%2011%20%7C%20Google%20TV-3DDC84?logo=android&logoColor=white)](https://android.com)
+[![APK Size](https://img.shields.io/badge/APK%20Size-%3C%20500%20KB-success?logo=android)](launcher-bin/app-release.apk)
+[![RAM Usage](https://img.shields.io/badge/RAM%20Usage-~25%20MB-blue)](README.md)
+[![Root Required](https://img.shields.io/badge/Root-Not%20Required-brightgreen)](README.md)
+[![Telemetry](https://img.shields.io/badge/Telemetry-Disabled-red)](README.md)
+[![Private DNS](https://img.shields.io/badge/Private%20DNS-AdGuard-orange)](https://adguard-dns.io)
+
+A lightweight, non-destructive debloat toolkit and native Apple TV 4K-style home screen configuration tailored for **Realme Smart TV** (Android 11, API 30 / Changhong `ikebukuro` board).
+
+---
+
+## 📌 Project Overview
+
+Budget smart TVs often struggle with sluggish navigation, intrusive sponsored banners, and background analytics that consume up to 80% of their 1 GB RAM. 
+
+This project completely revamps the user experience by:
+1. **Eliminating Bloatware**: Suspending manufacturer telemetry (Anoki ACR), auto-installers, and redundant screen-sharing services via pure user-space ADB without risking a bootloop.
+2. **Apple TV 4K Home Screen**: Replacing the cluttered stock launcher with a sub-500 KB native Android TV launcher that operates at fluid 60 FPS with real-time ambient backlighting.
+3. **Hardware Integration**: Preserving physical TV hardware functions (HDMI 1/2/3, AV, and Live TV) via a frosted glass inputs dropdown backed by the Android TV Input Framework.
+4. **Ad-Free Browsing**: Activating AdGuard Private DNS directly on the device for network-wide telemetry and tracker blocking.
 
 ---
 
@@ -14,7 +33,7 @@ A streamlined debloat toolkit and native Apple TV 4K-style home screen configura
 
 ### After: Apple TV 4K Style Clean Home
 ![Clean Apple TV 4K Home](assets/after-home.png)
-*Pitch-black OLED background, dynamic ambient backlighting matching active app, Outfit font, and frosted glass pills.*
+*Pitch-black OLED background, dynamic ambient backlighting matching active app, Outfit typography, and frosted glass pills.*
 
 ---
 
@@ -24,7 +43,7 @@ A streamlined debloat toolkit and native Apple TV 4K-style home screen configura
 
 ---
 
-## 📺 Highlights
+## 📺 Highlights & Features
 
 * **Apple TV 4K Experience**: Pitch-black OLED theme, dynamic ambient glow matching the active app's banner, frosted glass pill buttons for Inputs, Wi-Fi, and Settings.
 * **Deterministic Navigation**: Fast D-pad navigation, smooth grid expansion, compact Inputs dropdown covering all HDMI ports, AV, and Live TV.
@@ -37,7 +56,7 @@ A streamlined debloat toolkit and native Apple TV 4K-style home screen configura
 ## 🚀 Quick Start
 
 ### 1. Connect to TV over ADB
-On the TV, enable Developer Options (Settings → Device Preferences → About → Tap "Build" 7 times), then turn on **USB debugging**.
+On the TV, enable Developer Options (**Settings → Device Preferences → About → Tap "Build" 7 times**), then turn on **USB debugging**.
 
 Connect via your computer:
 ```bash
