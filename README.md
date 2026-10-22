@@ -4,6 +4,26 @@ A streamlined debloat toolkit and native Apple TV 4K-style home screen configura
 
 ---
 
+## 📸 Visual Transformation
+
+### Before: Stock Cluttered Android TV Home
+![Stock Android TV Home](assets/before-home.png)
+*Cluttered with sponsored ads, content recommendation carousels, and manufacturer bloat.*
+
+---
+
+### After: Apple TV 4K Style Clean Home
+![Clean Apple TV 4K Home](assets/after-home.png)
+*Pitch-black OLED background, dynamic ambient backlighting matching active app, Outfit font, and frosted glass pills.*
+
+---
+
+### Inputs Dropdown (Compact Glass)
+![Inputs Dropdown](assets/inputs-dropdown.png)
+*Quick switching between HDMI 1, HDMI 2, HDMI 3, AV, and Live TV via the TV input framework.*
+
+---
+
 ## 📺 Highlights
 
 * **Apple TV 4K Experience**: Pitch-black OLED theme, dynamic ambient glow matching the active app's banner, frosted glass pill buttons for Inputs, Wi-Fi, and Settings.
